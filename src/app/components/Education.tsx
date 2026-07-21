@@ -18,7 +18,7 @@ const educationData: EducationItem[] = [
   {
     degree: 'M.Tech in Artificial Intelligence',
     institution: 'IIT Roorkee',
-    period: 'Current',
+    period: '2026-current',
     score: 'Pursuing',
     color: 'from-emerald-500 to-teal-400'
   },
