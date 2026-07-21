@@ -45,13 +45,18 @@ export function Hero() {
               <h1 className="text-5xl md:text-6xl lg:text-7xl mb-4 font-extrabold tracking-tight bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent block drop-shadow-lg opacity-0 animate-fade-up delay-200">
                 Lakshmi Srinivas
               </h1>
-
+{/*
               <h2 className="text-xl md:text-2xl text-gray-300 mb-4 font-light tracking-wide opacity-0 animate-fade-up delay-300">
                 Advanced Application Engineering Analyst
-              </h2>
+              </h2>*/}
 
               <p className="text-base lg:text-lg text-gray-400 mb-6 leading-relaxed font-light opacity-0 animate-fade-up delay-400">
-                Engineering Analyst at Accenture, B.Tech in Computer Science & Engineering (AI Major) at IIITDM Kancheepuram. Secured GATE AIR 253 in Data Science & Artificial Intelligence. I focus on building intelligent systems that address real-world problems, with specialization in deep learning, natural language processing, and computer vision. Experienced in developing production-ready machine learning models and scalable APIs.
+                M.Tech student in Artificial Intelligence at IIT Roorkee with industry experience building production-grade
+enterprise automation systems and AI-powered applications. Experienced in Large Language Models (LLMs),
+Retrieval-Augmented Generation (RAG), Agentic AI, FastAPI, and Python. Developed enterprise-scale
+automation solutions that reduced operational effort by approximately 80%, while pursuing research in
+trustworthy AI and intelligent systems. Passionate about building scalable AI systems that bridge research
+and real-world deployment.
               </p>
 
               <div className="flex flex-wrap justify-center md:justify-start gap-4 opacity-0 animate-fade-up delay-500">
