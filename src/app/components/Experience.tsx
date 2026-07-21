@@ -19,7 +19,7 @@ const experiences: ExperienceItem[] = [
   {
     title: 'Advanced App Engineering Analyst',
     company: 'Accenture',
-    period: 'Current',
+    period: 'October 2025– July 2026',
     location: 'Hyderabad, India',
     description: 'Specializing in DevOps, automation workflows, and generative AI initiatives.',
     achievements: [

@@ -16,6 +16,13 @@ interface EducationItem {
 
 const educationData: EducationItem[] = [
   {
+    degree: 'M.Tech in Artificial Intelligence',
+    institution: 'IIT Roorkee',
+    period: 'Current',
+    score: 'Pursuing',
+    color: 'from-emerald-500 to-teal-400'
+  },
+  {
     degree: 'B.Tech in CSE (Major in AI)',
     institution: 'IIITDM Kancheepuram',
     period: '2021 - 2025',
@@ -137,7 +144,7 @@ export function Education() {
         {/* Education Cards Grid */}
         <div 
           ref={scrollRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4"
         >
           {educationData.map((edu, index) => (
             <div
