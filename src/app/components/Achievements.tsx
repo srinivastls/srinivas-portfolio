@@ -48,6 +48,15 @@ export function Achievements() {
             color: 'yellow'
         },
         {
+            title: 'CP Snippets',
+            organization: 'PyPI / GitHub',
+            icon: <Code className="w-6 h-6 text-teal-400" />,
+            description: 'Authored an open-source Python library of reusable competitive programming snippets. Released as an MIT-licensed package on PyPI with auto-generated MkDocs API documentation.',
+            link: 'https://pypi.org/project/cp-snippets/',
+            color: 'teal'
+        },
+       
+        {
             title: 'Smart Expense Tracker',
             organization: 'Google Play Store App',
             icon: <Star className="w-6 h-6 text-green-400" />,
