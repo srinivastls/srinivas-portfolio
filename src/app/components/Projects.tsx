@@ -17,14 +17,7 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    title: 'AADIS: Advanced Agentic Document Intelligence System',
-    description: 'A sophisticated multi-agent system designed to automate deep document understanding and intelligent information retrieval. Features intelligent document decomposition and agentic QA.',
-    technologies: ['Python', 'Multi-Agent Systems', 'LLMs', 'RAG'],
-    metrics: ['Multi-Agent Architecture', 'Automated Decomposition', 'Agentic QA'],
-    image: '/AADIS.png',
-    githubUrl: 'https://github.com/srinivastls/AADIS'
-  },
+ 
   {
     title: 'NyayaMitra: AI-Powered Legal Assistant',
     description: 'Modular, multi-agent AI system for Indian legal domain: case retrieval, document summarization, fake news detection, and legal chatbot QA.',
@@ -32,6 +25,14 @@ const projects: Project[] = [
     metrics: ['91% factual consistency', '88.4% classification acc', '200K+ cases scraped'],
     image: '/NyayaMitra.png',
     githubUrl: 'https://github.com/srinivastls/NyayaMitra'
+  },
+  {
+    title: 'AI-Powered Scam Detection & Automated Investigation System',
+    description: 'An open source repository focusing on legal frameworks or data.',
+    technologies: ['Python', 'Data Analytics'],
+    metrics: ['Legal Frameworks', 'Data Analytics'],
+    image: '/91-crpc.png',
+    githubUrl: 'https://github.com/srinivastls/91-crpc'
   },
   {
     title: 'Celebrity Image Recognition',
@@ -49,13 +50,13 @@ const projects: Project[] = [
     image: '/cp_snippets.png',
     githubUrl: 'https://github.com/srinivastls/cp_snippets'
   },
-  {
-    title: '91-crpc',
-    description: 'An open source repository focusing on legal frameworks or data.',
-    technologies: ['Python', 'Data Analytics'],
-    metrics: ['Legal Frameworks', 'Data Analytics'],
-    image: '/91-crpc.png',
-    githubUrl: 'https://github.com/srinivastls/91-crpc'
+   {
+    title: 'AADIS: Advanced Agentic Document Intelligence System',
+    description: 'A sophisticated multi-agent system designed to automate deep document understanding and intelligent information retrieval. Features intelligent document decomposition and agentic QA.',
+    technologies: ['Python', 'Multi-Agent Systems', 'LLMs', 'RAG'],
+    metrics: ['Multi-Agent Architecture', 'Automated Decomposition', 'Agentic QA'],
+    image: '/AADIS.png',
+    githubUrl: 'https://github.com/srinivastls/AADIS'
   }
 ];
 

@@ -17,15 +17,17 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: 'Advanced App Engineering Analyst',
+    title: 'Advanced App Engineering Analyst — AI & Enterprise Automation',
     company: 'Accenture',
-    period: 'October 2025– July 2026',
+    period: 'Oct 2025 – Jul 2026',
     location: 'Hyderabad, India',
-    description: 'Specializing in DevOps, automation workflows, and generative AI initiatives.',
+    description: 'Specializing in AI-driven enterprise automation, intelligent agents, and infrastructure operations.',
     achievements: [
-      'Engineered automated deployment pipelines and optimized infrastructure workflows',
-      'Developed and integrated Generative AI solutions for enterprise applications',
-      'Lead Project AADIS to automate and scale advanced analytic deployments'
+      'Designed AI-powered intelligent agents to automate enterprise workflows, contextual information retrieval, and operational assistance, reducing repetitive manual intervention across infrastructure operations.',
+      'Built a production-grade RHEL patching automation framework (Python) for Oracle RAC, covering validation, service migration, patch execution, and resumable execution; improved throughput from 4–6 systems/day to 15–20 systems in ~3 hours (~80% effort reduction).',
+      'Modernized enterprise Oracle GoldenGate automation by migrating legacy Shell-based workflows to a modular Python architecture, improving maintainability and scalability.',
+      'Architected a centralized operations dashboard for real-time automation monitoring, execution tracking, patch status visualization, and failure diagnostics.',
+      'Implemented production-ready reliability features: structured logging, checkpoint-based recovery, automated notifications, and robust error handling.'
     ]
   },
   {
