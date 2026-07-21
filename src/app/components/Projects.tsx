@@ -20,7 +20,7 @@ const projects: Project[] = [
  
   {
     title: 'NyayaMitra: AI-Powered Legal Assistant',
-    description: 'Modular, multi-agent AI system for Indian legal domain: case retrieval, document summarization, fake news detection, and legal chatbot QA.',
+    description: 'An AI-powered legal documentation and chatbot system that assists users in generating legal documents and answering law-related queries using RAG and ReAct-based agents. Developed as a hackathon-winning prototype to democratize access to legal support in India.',
     technologies: ['PyTorch', 'Hugging Face', 'Milvus', 'FastAPI', 'Streamlit', 'LangChain', 'GCP'],
     metrics: ['91% factual consistency', '88.4% classification acc', '200K+ cases scraped'],
     image: '/NyayaMitra.png',
@@ -28,9 +28,9 @@ const projects: Project[] = [
   },
   {
     title: 'AI-Powered Scam Detection & Automated Investigation System',
-    description: 'An open source repository focusing on legal frameworks or data.',
-    technologies: ['Python', 'Data Analytics'],
-    metrics: ['Legal Frameworks', 'Data Analytics'],
+    description: 'Developed an AI-powered investigation platform aligned with Section 91 CrPC using GPT-4o and RoBERTa. Features an information-extraction pipeline for chat logs, AI-driven decoy agents to engage fraudsters, and a scalable backend with 40+ FastAPI REST APIs.',
+    technologies: ['Python', 'FastAPI', 'Azure OpenAI', 'RoBERTa', 'Transformers'],
+    metrics: ['Section 91 CrPC Aligned', '40+ REST APIs', 'Automated Investigation'],
     image: '/91-crpc.png',
     githubUrl: 'https://github.com/srinivastls/91-crpc'
   },
@@ -52,7 +52,7 @@ const projects: Project[] = [
   },
    {
     title: 'AADIS: Advanced Agentic Document Intelligence System',
-    description: 'A sophisticated multi-agent system designed to automate deep document understanding and intelligent information retrieval. Features intelligent document decomposition and agentic QA.',
+    description: 'A sophisticated multi-agent system designed to automate deep document understanding and intelligent information retrieval. It processes complex documents through specialized agents to extract multi-modal data and provides an agentic QA chatbot.',
     technologies: ['Python', 'Multi-Agent Systems', 'LLMs', 'RAG'],
     metrics: ['Multi-Agent Architecture', 'Automated Decomposition', 'Agentic QA'],
     image: '/AADIS.png',
